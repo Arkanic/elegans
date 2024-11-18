@@ -4,6 +4,7 @@
 
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
+#[allow(unused_imports)]
 use std::ptr;
 
 #[cfg(test)]

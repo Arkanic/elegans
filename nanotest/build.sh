@@ -1,1 +1,0 @@
-gcc -O3 -ggdb -I./nanotode/source -o test nanotode/test/main.c nanotode/source/connectome.c nanotode/source/muscles.c nanotode/source/neural_rom.c
